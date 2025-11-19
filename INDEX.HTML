@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Web Ivni</title>
+    <link rel="stylesheet" href="STYLES/STYLES.CSS">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+             <img src="IMAGENES/LGO.png" alt="Logo IVNI Store">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="PINES.HTML" class="active">Pines</a></li>
+                <li><a href="COLECCIONABLES.HTML">Coleccionables</a></li>
+                <li><a href="FUNKO.HTML">Funko Pop</a></li>
+                <li><a href="NUEVO.HTML">Lo Más Nuevo</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <button id="search-btn">🔍</button>
+            <button id="cart-btn">🛒</button>
+        </div>
+    </header>
+
+    <!-- 🔹 Sección de video promocional -->
+    <section class="video-section">
+        <!-- 📌 Aquí reemplaza la ruta del video por tu archivo .mp4 -->
+        <video autoplay muted loop playsinline>
+            <source src="tu-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay">
+            <h1>Tu tienda favorita, ahora en línea ✨</h1>
+        </div>
+    </section>
+
+    <!-- 🔹 Galería de productos -->
+    <section class="productos">
+        <h2>Productos Destacados</h2>
+        <div class="galeria">
+            <div class="producto">
+                <img src="IMAGENES/FREDDY FNAF.png" alt="FUNKOPOP1">
+                <p>Pop! Withered Freddy</p>
+            </div>
+            <div class="producto">
+                <img src="IMAGENES/Ternurines.png" alt="TERNURINES1">
+                <p>Set de Exploradores - Hermano y Bebé Gato Latte</p>
+            </div>
+            <div class="producto">
+                <img src="IMAGENES/Labubu.jpg" alt="LABUBU1">
+                <p>Labubu The Monsters Mokoko Twinkly Fairy Tale Vinyl Plush Pendant 2024 Limited Edition</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Contacto</h3>
+      <ul>
+        <li><a href="CONTACTO.HTML">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Información</h3>
+      <ul>
+        <li><a href="FAQ.HTML">Preguntas frecuentes</a></li>
+        <li><a href="AVISOS.HTML">Aviso de privacidad</a></li>
+        <li><a href="TERMINOS.HTML">Términos y condiciones</a></li>
+        <li><a href="DEVOLUCIONES.HTML">Política de devoluciones</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Ubicación</h3>
+      <div class="map-placeholder"></div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>©2025, IVNI Store</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=100063511958404"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/cuidado_paginadeotromundo/"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

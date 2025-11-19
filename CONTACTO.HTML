@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Web Ivni</title>
+    <link rel="stylesheet" href="STYLES/STYLES.CSS">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <a href="index.html">
+             <img src="IMAGENES/LGO.png" alt="Logo IVNI Store">
+          </a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="PINES.HTML" class="active">Pines</a></li>
+                <li><a href="COLECCIONABLES.HTML" class="active">Coleccionables</a></li>
+                <li><a href="FUNKO.HTML">Funko Pop</a></li>
+                <li><a href="NUEVO.HTML">Lo Más Nuevo</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <button id="search-btn">🔍</button>
+            <button id="cart-btn">🛒</button>
+        </div>
+    </header>
+
+<section class="contacto">
+    <div class="contacto-header">
+        <h2>¿NECESITAS ALGO?</h2>
+        <h1>¡PONTE EN CONTACTO CON NOSOTROS!</h1>
+        <p>Si tienes alguna duda o sugerencia, o necesitas apoyo con alguna compra, puedes escribirnos un mensaje y te responderemos en breve.</p>
+    </div>
+
+        <div class="info-item">
+            <img src="ICONOS/Telefono.png" alt="Llámanos">
+            <h3>LLÁMANOS</h3>
+            <p>DE LUNES A VIERNES<br>DE 9:00 A 18:00</p>
+        </div>
+
+        <div class="info-item">
+            <img src="ICONOS/EMAIL.png" alt="Escríbenos">
+            <h3>ESCRÍBENOS</h3>
+            <p>ayuda@IVNIStore.com</p>
+        </div>
+    </div>
+
+    <div class="contacto-contenido">
+        <div class="contacto-form">
+            <form>
+                <label for="nombre">NOMBRE</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+                <label for="correo">CORREO</label>
+                <input type="email" id="correo" name="correo" placeholder="Correo">
+
+                <label for="comentario">COMENTARIO</label>
+                <textarea id="comentario" name="comentario" placeholder="Comentario"></textarea>
+
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+
+        <div class="contacto-imagen">
+            <img src="IMAGENES/Pines.jpg" alt="Imagen de contacto">
+        </div>
+    </div>
+</section>
+
+  <!-- Footer -->
+    <footer>
+        <p>© 2025 Tienda Ivni | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
